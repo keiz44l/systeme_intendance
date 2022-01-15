@@ -1,3 +1,5 @@
+//API issue du code de Saravanan AL et modifiée au besoin, API écrite en javascript ( et non en php comme dit dans le rapport suite à une erreur
+
 function doGet(e) { 
   Logger.log( JSON.stringify(e) ); 
 
