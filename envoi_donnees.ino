@@ -123,7 +123,7 @@ void loop()                     // se lance continuellement
     client.println("Connection: close");
     client.println();
   } else {
-    // if you didn't get a connection to the server:
+    // si la connexion a échoué
     Serial.println("connection failed");
   }
  }
